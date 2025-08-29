@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUKONG CLIFFORD / Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">LUKONG CLIFFORD / Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link active">HOME</a></li>
+                <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
+                <li><a href="#about" class="nav-link">ABOUT ME</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="home-content">
+            <div class="profile-image">
+                <img src="suit.jpg" alt="Lukong Clifford">
+            </div>
+            <div class="home-text">
+                <h1>INNOVATE WITH CLIFFORD</h1>
+                <p class="subtitle">CLIFFORD UX DESIGNER AND DEVELOPER IN PROGRESS</p>
+                <div class="project-announcement">
+                    <p>MY PROJECT COMING SOON ..... STAY TUNED!</p>
+                    <button class="lets-talk-btn" onclick="scrollToSection
+                    ('contact')">LET'S TALK</button>
+                </div>
+            </div>
+        </div>
+        <!--- comment this div 
+        
+        <div class="color-palette">
+            <div class="color-swatch teal"></div>
+            <div class="color-swatch coral"></div>
+            <div class="color-swatch light-olive"></div>
+            <div class="color-swatch dark-green"></div>
+            <div class="color-swatch darker-green"></div>
+        </div>-->
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="portfolio-content">
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="tech.jpg" alt="UX Design">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>I love designing user experiences</h3>
+                        <p>The user-centered digital experience is to design solutions that are not just beautiful, but meaningful.</p>
+                        <button class="more-btn">MORE</button>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="lapt.jpg" alt="Coding">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>I'm Clifford, a passionate learner and full-stack developer from Cameroon. I love bringing ideas to life through design and code.</h3>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="niu.jpg" alt="Tech Future">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>TECH IS HOW WE SHAPE THE FUTURE.</h3>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="code.jpg" alt="Learning">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>Stay curious. Keep building. Never stop learning.</h3>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="ocean.jpg" alt="Cameroon">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>From Cameroon to the World. Coding my dream one line at a time.</h3>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="border.jpg" alt="No Borders">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>TECH HAS NO BORDERS.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="about-content">
+            <div class="about-left">
+                <div class="about-image">
+                    <img src="clifford.jpg" alt="Lukong Clifford">
+                </div>
+                <div class="skills-section">
+                    <h3>SKILLS</h3>
+                    <div class="skills-list">
+                        <span class="skill">.HTML</span>
+                        <span class="skill">.CSS</span>
+                        <span class="skill">.JAVASCRIPT</span>
+                        <span class="skill">.UI/UX DESIGN</span>
+                        <span class="skill">.PYTHON</span>
+                        <span class="skill">.SQL DATABASE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hi, I'm Lukong Clifford, a passionate and self-motivated software developer. I enjoy building web applications and am always eager to learn new technologies. My main area of interest is front-end development, back-end development, building beautiful user interfaces.</p>
+                    <p>I'm currently looking for freelance opportunities where I can contribute to exciting projects and continue to grow my skills. When I'm not coding, I enjoy playing music or playing football.</p>
+                    <p>I believe in creating meaningful digital experiences that solve real problems and make a positive impact on people's lives. My journey in tech started with curiosity and has evolved into a passion for innovation and continuous learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="contact-content">
+            <div class="contact-form">
+                <h2>Get In Touch</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="send-btn">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
